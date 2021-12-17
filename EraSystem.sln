@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EraSystem", "EraSystem.csproj", "{EB0D7B34-8952-4799-AA68-DE2C0223E1AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB0D7B34-8952-4799-AA68-DE2C0223E1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0D7B34-8952-4799-AA68-DE2C0223E1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0D7B34-8952-4799-AA68-DE2C0223E1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0D7B34-8952-4799-AA68-DE2C0223E1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CCD57A8-086F-4481-B817-8E7CEA519EA1}
+	EndGlobalSection
+EndGlobal

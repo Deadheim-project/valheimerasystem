@@ -1,0 +1,430 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "HarmonyX/2.6.1": {
+        "type": "package",
+        "dependencies": {
+          "MonoMod.RuntimeDetour": "21.11.1.1"
+        },
+        "compile": {
+          "lib/net45/0Harmony.dll": {}
+        },
+        "runtime": {
+          "lib/net45/0Harmony.dll": {}
+        }
+      },
+      "ILRepack.Lib.MSBuild.Task/2.0.18.2": {
+        "type": "package",
+        "build": {
+          "build/ILRepack.Lib.MSBuild.Task.targets": {}
+        }
+      },
+      "Mono.Cecil/0.11.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        }
+      },
+      "MonoMod.RuntimeDetour/21.11.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.11.4",
+          "MonoMod.Utils": "21.11.1.1"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net452/MonoMod.RuntimeDetour.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MonoMod.RuntimeDetour.dll": {}
+        }
+      },
+      "MonoMod.Utils/21.11.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.11.4"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net452/MonoMod.Utils.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MonoMod.Utils.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "HarmonyX/2.6.1": {
+        "type": "package",
+        "dependencies": {
+          "MonoMod.RuntimeDetour": "21.11.1.1"
+        },
+        "compile": {
+          "lib/net45/0Harmony.dll": {}
+        },
+        "runtime": {
+          "lib/net45/0Harmony.dll": {}
+        }
+      },
+      "ILRepack.Lib.MSBuild.Task/2.0.18.2": {
+        "type": "package",
+        "build": {
+          "build/ILRepack.Lib.MSBuild.Task.targets": {}
+        }
+      },
+      "Mono.Cecil/0.11.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        }
+      },
+      "MonoMod.RuntimeDetour/21.11.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.11.4",
+          "MonoMod.Utils": "21.11.1.1"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net452/MonoMod.RuntimeDetour.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MonoMod.RuntimeDetour.dll": {}
+        }
+      },
+      "MonoMod.Utils/21.11.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.11.4"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net452/MonoMod.Utils.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MonoMod.Utils.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "HarmonyX/2.6.1": {
+        "type": "package",
+        "dependencies": {
+          "MonoMod.RuntimeDetour": "21.11.1.1"
+        },
+        "compile": {
+          "lib/net45/0Harmony.dll": {}
+        },
+        "runtime": {
+          "lib/net45/0Harmony.dll": {}
+        }
+      },
+      "ILRepack.Lib.MSBuild.Task/2.0.18.2": {
+        "type": "package",
+        "build": {
+          "build/ILRepack.Lib.MSBuild.Task.targets": {}
+        }
+      },
+      "Mono.Cecil/0.11.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        }
+      },
+      "MonoMod.RuntimeDetour/21.11.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.11.4",
+          "MonoMod.Utils": "21.11.1.1"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net452/MonoMod.RuntimeDetour.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MonoMod.RuntimeDetour.dll": {}
+        }
+      },
+      "MonoMod.Utils/21.11.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.11.4"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net452/MonoMod.Utils.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MonoMod.Utils.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "HarmonyX/2.6.1": {
+        "type": "package",
+        "dependencies": {
+          "MonoMod.RuntimeDetour": "21.11.1.1"
+        },
+        "compile": {
+          "lib/net45/0Harmony.dll": {}
+        },
+        "runtime": {
+          "lib/net45/0Harmony.dll": {}
+        }
+      },
+      "ILRepack.Lib.MSBuild.Task/2.0.18.2": {
+        "type": "package",
+        "build": {
+          "build/ILRepack.Lib.MSBuild.Task.targets": {}
+        }
+      },
+      "Mono.Cecil/0.11.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Mono.Cecil.Mdb.dll": {},
+          "lib/net40/Mono.Cecil.Pdb.dll": {},
+          "lib/net40/Mono.Cecil.Rocks.dll": {},
+          "lib/net40/Mono.Cecil.dll": {}
+        }
+      },
+      "MonoMod.RuntimeDetour/21.11.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.11.4",
+          "MonoMod.Utils": "21.11.1.1"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net452/MonoMod.RuntimeDetour.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MonoMod.RuntimeDetour.dll": {}
+        }
+      },
+      "MonoMod.Utils/21.11.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.11.4"
+        },
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "lib/net452/MonoMod.Utils.dll": {}
+        },
+        "runtime": {
+          "lib/net452/MonoMod.Utils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HarmonyX/2.6.1": {
+      "sha512": "FbVV9Le/pen44i9C2eYgTqsLzJBLCywqCRJXJQqJVJeUn4CFGRRc1FMvLcvhEzfXWwmeRxfbqT//sWxZg+b7Cg==",
+      "type": "package",
+      "path": "harmonyx/2.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "harmonyx.2.6.1.nupkg.sha512",
+        "harmonyx.nuspec",
+        "lib/net35/0Harmony.dll",
+        "lib/net35/0Harmony.xml",
+        "lib/net45/0Harmony.dll",
+        "lib/net45/0Harmony.xml",
+        "lib/netstandard2.0/0Harmony.dll",
+        "lib/netstandard2.0/0Harmony.xml",
+        "logo_mini.png"
+      ]
+    },
+    "ILRepack.Lib.MSBuild.Task/2.0.18.2": {
+      "sha512": "lreK19MMDA/ekeqjLY4w171cG7+pHwjeTMHMNq6tghuhTOIOfHT+b/LTMj5jpfbJoR7J6AMD3yOYZoyY/2wtJA==",
+      "type": "package",
+      "path": "ilrepack.lib.msbuild.task/2.0.18.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ILRepack.Lib.MSBuild.Task.dll",
+        "build/ILRepack.Lib.MSBuild.Task.targets",
+        "ilrepack.lib.msbuild.task.2.0.18.2.nupkg.sha512",
+        "ilrepack.lib.msbuild.task.nuspec"
+      ]
+    },
+    "Mono.Cecil/0.11.4": {
+      "sha512": "IC1h5g0NeJGHIUgzM1P82ld57knhP0IcQfrYITDPXlNpMYGUrsG5TxuaWTjaeqDNQMBDNZkB8L0rBnwsY6JHuQ==",
+      "type": "package",
+      "path": "mono.cecil/0.11.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Mono.Cecil.Mdb.dll",
+        "lib/net40/Mono.Cecil.Mdb.pdb",
+        "lib/net40/Mono.Cecil.Pdb.dll",
+        "lib/net40/Mono.Cecil.Pdb.pdb",
+        "lib/net40/Mono.Cecil.Rocks.dll",
+        "lib/net40/Mono.Cecil.Rocks.pdb",
+        "lib/net40/Mono.Cecil.dll",
+        "lib/net40/Mono.Cecil.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "lib/netstandard2.0/Mono.Cecil.Mdb.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "lib/netstandard2.0/Mono.Cecil.Pdb.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "lib/netstandard2.0/Mono.Cecil.Rocks.pdb",
+        "lib/netstandard2.0/Mono.Cecil.dll",
+        "lib/netstandard2.0/Mono.Cecil.pdb",
+        "mono.cecil.0.11.4.nupkg.sha512",
+        "mono.cecil.nuspec"
+      ]
+    },
+    "MonoMod.RuntimeDetour/21.11.1.1": {
+      "sha512": "DGm50NB62nnqHNSVaYCp/qNB3wfDnQ+aHXmWhcim5Fm3R2QBQg6t5qs4s310fUTuSzXKXX4p0RwgMcea1yeWxg==",
+      "type": "package",
+      "path": "monomod.runtimedetour/21.11.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/MonoMod.RuntimeDetour.dll",
+        "lib/net35/MonoMod.RuntimeDetour.xml",
+        "lib/net452/MonoMod.RuntimeDetour.dll",
+        "lib/net452/MonoMod.RuntimeDetour.xml",
+        "lib/net5.0/MonoMod.RuntimeDetour.dll",
+        "lib/net5.0/MonoMod.RuntimeDetour.xml",
+        "lib/netstandard2.0/MonoMod.RuntimeDetour.dll",
+        "lib/netstandard2.0/MonoMod.RuntimeDetour.xml",
+        "monomod.runtimedetour.21.11.1.1.nupkg.sha512",
+        "monomod.runtimedetour.nuspec"
+      ]
+    },
+    "MonoMod.Utils/21.11.1.1": {
+      "sha512": "n71C71sV9avrK3HtU5E4eDdglecG57HaGcSkow/3KIfEsqSrQTzCgrBJD9BrpYdDRbRoXvRJFnbKqm4v6h4Dyw==",
+      "type": "package",
+      "path": "monomod.utils/21.11.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/MonoMod.Utils.dll",
+        "lib/net35/MonoMod.Utils.xml",
+        "lib/net452/MonoMod.Utils.dll",
+        "lib/net452/MonoMod.Utils.xml",
+        "lib/net5.0/MonoMod.Utils.dll",
+        "lib/net5.0/MonoMod.Utils.xml",
+        "lib/netstandard2.0/MonoMod.Utils.dll",
+        "lib/netstandard2.0/MonoMod.Utils.xml",
+        "monomod.utils.21.11.1.1.nupkg.sha512",
+        "monomod.utils.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "HarmonyX >= 2.6.1",
+      "ILRepack.Lib.MSBuild.Task >= 2.0.18.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Werner\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Werner\\source\\repos\\EraSystem\\erasystem\\EraSystem.csproj",
+      "projectName": "EraSystem",
+      "projectPath": "C:\\Users\\Werner\\source\\repos\\EraSystem\\erasystem\\EraSystem.csproj",
+      "packagesPath": "C:\\Users\\Werner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Werner\\source\\repos\\EraSystem\\erasystem\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Werner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "HarmonyX": {
+            "target": "Package",
+            "version": "[2.6.1, )"
+          },
+          "ILRepack.Lib.MSBuild.Task": {
+            "target": "Package",
+            "version": "[2.0.18.2, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\EraSystem.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\EraSystem.pdb
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\0Harmony.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\Mono.Cecil.Mdb.pdb
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\Mono.Cecil.Pdb.pdb
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\Mono.Cecil.Rocks.pdb
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\Mono.Cecil.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\Mono.Cecil.pdb
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\MonoMod.RuntimeDetour.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\MonoMod.Utils.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\ServerSync.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.AIModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.AndroidJNIModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.AudioModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.ClothModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.DirectorModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.GridModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.InputLegacyModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.InputModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.SubsystemsModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.TerrainModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.TilemapModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.UI.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.UIElementsModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.UIModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.VFXModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.VideoModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.VRModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\bin\Debug\UnityEngine.XRModule.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\obj\Debug\EraSystem.csproj.AssemblyReference.cache
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\obj\Debug\EraSystem.csproj.CoreCompileInputs.cache
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\obj\Debug\EraSystem.csproj.CopyComplete
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\obj\Debug\EraSystem.dll
+C:\Users\Werner\source\repos\Deadheim - Copia\Deadheim\obj\Debug\EraSystem.pdb
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\EraSystem.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\EraSystem.pdb
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\0Harmony.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\Mono.Cecil.Mdb.pdb
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\Mono.Cecil.Pdb.pdb
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\Mono.Cecil.Rocks.pdb
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\Mono.Cecil.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\Mono.Cecil.pdb
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\MonoMod.RuntimeDetour.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\MonoMod.Utils.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\ItemManager.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.AIModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.AndroidJNIModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.AudioModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.ClothModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.DirectorModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.GridModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.InputLegacyModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.InputModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.SubsystemsModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.TerrainModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.TilemapModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.UI.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.UIElementsModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.UIModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.VFXModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.VideoModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.VRModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.XRModule.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\obj\Debug\EraSystem.csproj.AssemblyReference.cache
+C:\Users\Werner\source\repos\EraSystem\erasystem\obj\Debug\EraSystem.csproj.CoreCompileInputs.cache
+C:\Users\Werner\source\repos\EraSystem\erasystem\obj\Debug\EraSystem.csproj.CopyComplete
+C:\Users\Werner\source\repos\EraSystem\erasystem\obj\Debug\EraSystem.dll
+C:\Users\Werner\source\repos\EraSystem\erasystem\obj\Debug\EraSystem.pdb

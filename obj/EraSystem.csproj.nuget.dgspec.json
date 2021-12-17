@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Werner\\source\\repos\\EraSystem\\erasystem\\EraSystem.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Werner\\source\\repos\\EraSystem\\erasystem\\EraSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Werner\\source\\repos\\EraSystem\\erasystem\\EraSystem.csproj",
+        "projectName": "EraSystem",
+        "projectPath": "C:\\Users\\Werner\\source\\repos\\EraSystem\\erasystem\\EraSystem.csproj",
+        "packagesPath": "C:\\Users\\Werner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Werner\\source\\repos\\EraSystem\\erasystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Werner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "HarmonyX": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "ILRepack.Lib.MSBuild.Task": {
+              "target": "Package",
+              "version": "[2.0.18.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

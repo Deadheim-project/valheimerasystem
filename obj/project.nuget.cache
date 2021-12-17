@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "G8Z5zBErJiJAGQpKo6hnRSNx8OYupn/UIy6NaruPL/W9B68sgI6QangCCQCLJO9mZ7SU/6bMY9rv/kqNHRnqmg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Werner\\source\\repos\\EraSystem\\erasystem\\EraSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Werner\\.nuget\\packages\\harmonyx\\2.6.1\\harmonyx.2.6.1.nupkg.sha512",
+    "C:\\Users\\Werner\\.nuget\\packages\\ilrepack.lib.msbuild.task\\2.0.18.2\\ilrepack.lib.msbuild.task.2.0.18.2.nupkg.sha512",
+    "C:\\Users\\Werner\\.nuget\\packages\\mono.cecil\\0.11.4\\mono.cecil.0.11.4.nupkg.sha512",
+    "C:\\Users\\Werner\\.nuget\\packages\\monomod.runtimedetour\\21.11.1.1\\monomod.runtimedetour.21.11.1.1.nupkg.sha512",
+    "C:\\Users\\Werner\\.nuget\\packages\\monomod.utils\\21.11.1.1\\monomod.utils.21.11.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
