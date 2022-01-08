@@ -89,7 +89,7 @@ namespace EraSystem
             Config.SaveOnConfigSet = true;
 
             Era = config("Age Server config", "Age", "stone",
-                       "Age: Stone, bronze, iron, silver, blackmetal, mist, fire, ice, end");
+                       "Age: stone, bronze, iron, silver, blackmetal, mist, fire, ice, end");
 
             SafeArea = config("Server config", "SafeArea", 100,
             "Radius where pvp is disabled starts from x0 y0");
