@@ -35,7 +35,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Boss\Boss.cs" />
+    <Compile Include="Craft\Boss.cs" />
     <Compile Include="Craft\ItemService.cs" />
     <Compile Include="Drop\Drop.cs" />
     <Compile Include="Plugin.cs" />
@@ -209,6 +209,9 @@
   <ItemGroup>
     <EmbeddedResource Include="assets\erasystem" />
     <None Include="ILRepack.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Boss\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

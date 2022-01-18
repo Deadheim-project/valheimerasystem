@@ -47,17 +47,16 @@ namespace EraSystem
         public static ConfigEntry<string> BlockedMetalsAtIceAge;
         public static ConfigEntry<string> BlockedMetalsAtEndAge;
 
-        public static ConfigEntry<string> BlockedFactionDropAtStoneAge;
-        public static ConfigEntry<string> BlockedFactionDropAtBronzeAge;
-        public static ConfigEntry<string> BlockedFactionDropAtIronAge;
-        public static ConfigEntry<string> BlockedFactionDropAtSilverAge;
-        public static ConfigEntry<string> BlockedFactionDropAtBlackmetalAge;
-        public static ConfigEntry<string> BlockedFactionDropAtFireAge;
-        public static ConfigEntry<string> BlockedFactionDropAtMistAge;
-        public static ConfigEntry<string> BlockedFactionDropAtIceAge;
-        public static ConfigEntry<string> BlockedFactionDropAtEndAge;
+        public static ConfigEntry<string> BlockedCreatureDropAtStoneAge;
+        public static ConfigEntry<string> BlockedCreatureDropAtBronzeAge;
+        public static ConfigEntry<string> BlockedCreatureDropAtIronAge;
+        public static ConfigEntry<string> BlockedCreatureDropAtSilverAge;
+        public static ConfigEntry<string> BlockedCreatureDropAtBlackmetalAge;
+        public static ConfigEntry<string> BlockedCreatureDropAtFireAge;
+        public static ConfigEntry<string> BlockedCreatureDropAtMistAge;
+        public static ConfigEntry<string> BlockedCreatureDropAtIceAge;
+        public static ConfigEntry<string> BlockedCreatureDropAtEndAge;
 
-        public static ConfigEntry<int> SafeArea;
         public static GameObject dontCraftPrefab;
 
         Harmony _harmony = new Harmony(PluginGUID);
@@ -91,9 +90,6 @@ namespace EraSystem
             Era = config("Age Server config", "Age", "stone",
                        "Age: stone, bronze, iron, silver, blackmetal, mist, fire, ice, end");
 
-            SafeArea = config("Server config", "SafeArea", 100,
-            "Radius where pvp is disabled starts from x0 y0");
-
             BlockedCraftsUntilStoneAge = config("Crafts Server config", "BlockedCraftsUntilStoneAge", "",
                 "Stone");
 
@@ -114,7 +110,6 @@ namespace EraSystem
 
             BlockedCraftsUntilFireAge = config("Crafts Server config", "BlockedCraftsUntilFireAge", "",
                 "Fire");
-
 
             BlockedCraftsUntilIceAge = config("Crafts Server config", "BlockedCraftsUntilIceAge", "",
                 "Ice");
@@ -149,25 +144,25 @@ namespace EraSystem
             BlockedBossesAtEndAge = config("Bosses Server config", "BlockedBossesUntilEndAge", "",
                 "End");
 
-            BlockedMetalsAtStoneAge = config("Metals Server config", "BlockedMetalsUntilStoneAge", "tin,bronze,iron,silver,blackmetal,flametal",
+            BlockedMetalsAtStoneAge = config("Metals Server config", "BlockedMetalsUntilStoneAge", " tinore,bronzeore,ironscrap,silverore,blackmetalscrap,flametalore",
                 "Stone");
 
-            BlockedMetalsAtBronzeAge = config("Metals Server config", "BlockedMetalsUntilBronzeAge", "iron,silver,blackmetal,flametal",
+            BlockedMetalsAtBronzeAge = config("Metals Server config", "BlockedMetalsUntilBronzeAge", "ironscrap,silverore,blackmetalscrap,flametalore",
                 "Bronze");
 
-            BlockedMetalsAtIronAge = config("Metals Server config", "BlockedMetalsAtIronAge", "silver,blackmetal,flametal",
+            BlockedMetalsAtIronAge = config("Metals Server config", "BlockedMetalsAtIronAge", "silverore,blackmetalscrap,flametalore",
                 "Iron");
 
-            BlockedMetalsAtSilverAge = config("Metals Server config", "BlockedMetalsAtSilverAge", "blackmetal,flametal",
+            BlockedMetalsAtSilverAge = config("Metals Server config", "BlockedMetalsAtSilverAge", "blackmetalscrap,flametalore",
                 "Silver");
 
-            BlockedMetalsAtBlackmetalAge = config("Metals Server config", "BlockedMetalsUntilBlackmetalAge", "flametal",
+            BlockedMetalsAtBlackmetalAge = config("Metals Server config", "BlockedMetalsUntilBlackmetalAge", "flametalore",
                 "BlackMetal");
 
-            BlockedMetalsAtMistAge = config("Metals Server config", "BlockedMetalsUntilMistAge", "",
+            BlockedMetalsAtMistAge = config("Metals Server config", "BlockedMetalsUntilMistAge", "flametalore",
                 "Mist");
 
-            BlockedMetalsAtFireAge = config("Metals Server config", "BlockedMetalsUntilFireAge", "",
+            BlockedMetalsAtFireAge = config("Metals Server config", "BlockedMetalsUntilFireAge", "flametalore",
                 "Fire");
 
             BlockedMetalsAtIceAge = config("Metals Server config", "BlockedMetalsUntilIceAge", "",
@@ -176,31 +171,31 @@ namespace EraSystem
             BlockedMetalsAtEndAge = config("Metals Server config", "BlockedMetalsUntilEndAge", "",
                 "End");
 
-            BlockedFactionDropAtStoneAge = config("FactionDrop Server config", "BlockedFactionDropUntilStoneAge", "undead,demon,mountainmonsters,seamonsters,plainsmonsters",
+            BlockedCreatureDropAtStoneAge = config("FactionDrop Server config", "BlockedCreatureDropUntilStoneAge", "",
           "Stone");
 
-            BlockedFactionDropAtBronzeAge = config("FactionDrop Server config", "BlockedFactionDropUntilBronzeAge", "undead,demon,mountainmonsters,seamonsters,plainsmonsters",
+            BlockedCreatureDropAtBronzeAge = config("FactionDrop Server config", "BlockedCreatureDropUntilBronzeAge", "gd_king,Greydwarf,Greydwarf_Elite,Greydwarf_Shaman,Skeleton,Skeleton_Poison",
                 "Bronze");
 
-            BlockedFactionDropAtIronAge = config("FactionDrop Server config", "BlockedFactionDropAtIronAge", "mountainmonsters,seamonsters,plainsmonsters",
+            BlockedCreatureDropAtIronAge = config("FactionDrop Server config", "BlockedCreatureDropUntilIronAge", "Bonemass,Blob,Ghost,Leech,Wraith,Draugr,Draugr_Ranged,Surtling,Troll",
                 "Iron");
 
-            BlockedFactionDropAtSilverAge = config("FactionDrop Server config", "BlockedFactionDropAtSilverAge", "plainsmonsters",
+            BlockedCreatureDropAtSilverAge = config("FactionDrop Server config", "BlockedCreatureDropUntilSilverAge", "Dragon,Draugr_Elite,BlobElite,Wolf,Fenring,Drake,Hatchling,StoneGolem",
                 "Silver");
 
-            BlockedFactionDropAtBlackmetalAge = config("FactionDrop Server config", "BlockedFactionDropUntilBlackmetalAge", "",
+            BlockedCreatureDropAtBlackmetalAge = config("FactionDrop Server config", "BlockedCreatureDropUntilBlackmetalAge", "GoblinKing,Fuling,Goblin,GoblinArcher,Serpent,Deathsquito,Lox,GoblinBrute,GoblinShaman",
                 "BlackMetal");
 
-            BlockedFactionDropAtMistAge = config("FactionDrop Server config", "BlockedFactionDropUntilMistAge", "",
+            BlockedCreatureDropAtMistAge = config("FactionDrop Server config", "BlockedCreatureDropUntilMistAge", "",
                 "Mist");
 
-            BlockedFactionDropAtFireAge = config("FactionDrop Server config", "BlockedFactionDropUntilFireAge", "",
+            BlockedCreatureDropAtFireAge = config("FactionDrop Server config", "BlockedCreatureDropUntilFireAge", "",
                 "Fire");
 
-            BlockedFactionDropAtIceAge = config("FactionDrop Server config", "BlockedFactionDropUntilIceAge", "",
+            BlockedCreatureDropAtIceAge = config("FactionDrop Server config", "BlockedCreatureDropUntilIceAge", "",
                 "Ice");
 
-            BlockedFactionDropAtEndAge = config("FactionDrop Server config", "BlockedFactionDropUntilEndAge", "",
+            BlockedCreatureDropAtEndAge = config("FactionDrop Server config", "BlockedCreatureDropUntilEndAge", "",
                 "End");
 
             _harmony.PatchAll();
