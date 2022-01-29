@@ -62,7 +62,6 @@ C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\Mono.Cecil.dll
 C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\Mono.Cecil.pdb
 C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\MonoMod.RuntimeDetour.dll
 C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\MonoMod.Utils.dll
-C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\ItemManager.dll
 C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.AIModule.dll
 C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.AndroidJNIModule.dll
 C:\Users\Werner\source\repos\EraSystem\erasystem\bin\Debug\UnityEngine.AnimationModule.dll

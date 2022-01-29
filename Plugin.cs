@@ -4,6 +4,7 @@ using HarmonyLib;
 using ServerSync;
 using ItemManager;
 using UnityEngine;
+using EraSystem.Drop;
 
 namespace EraSystem
 {
@@ -57,6 +58,16 @@ namespace EraSystem
         public static ConfigEntry<string> BlockedCreatureDropAtIceAge;
         public static ConfigEntry<string> BlockedCreatureDropAtEndAge;
 
+        public static ConfigEntry<string> BlockedRockAndTreeDropAtStoneAge;
+        public static ConfigEntry<string> BlockedRockAndTreeDropAtBronzeAge;
+        public static ConfigEntry<string> BlockedRockAndTreeDropAtIronAge;
+        public static ConfigEntry<string> BlockedRockAndTreeDropAtSilverAge;
+        public static ConfigEntry<string> BlockedRockAndTreeDropAtBlackmetalAge;
+        public static ConfigEntry<string> BlockedRockAndTreeDropAtFireAge;
+        public static ConfigEntry<string> BlockedRockAndTreeDropAtMistAge;
+        public static ConfigEntry<string> BlockedRockAndTreeDropAtIceAge;
+        public static ConfigEntry<string> BlockedRockAndTreeDropAtEndAge;
+
         public static GameObject dontCraftPrefab;
 
         Harmony _harmony = new Harmony(PluginGUID);
@@ -78,6 +89,16 @@ namespace EraSystem
             private static void Postfix()
             {
                 if (ZNet.instance.IsServer()) return;
+                ItemService.RemoveDisabledThings();
+            }
+        }
+
+        [HarmonyPatch(typeof(Player), "OnSpawned")]
+        public static class OnSpawned
+        {
+            [HarmonyPriority(Priority.Last)]
+            private static void Postfix()
+            {
                 ItemService.RemoveDisabledThings();
             }
         }
@@ -171,31 +192,58 @@ namespace EraSystem
             BlockedMetalsAtEndAge = config("Metals Server config", "BlockedMetalsUntilEndAge", "",
                 "End");
 
-            BlockedCreatureDropAtStoneAge = config("FactionDrop Server config", "BlockedCreatureDropUntilStoneAge", "",
+            BlockedCreatureDropAtStoneAge = config("CraetureDrop Server config", "BlockedCreatureDropUntilStoneAge", "",
           "Stone");
 
-            BlockedCreatureDropAtBronzeAge = config("FactionDrop Server config", "BlockedCreatureDropUntilBronzeAge", "gd_king,Greydwarf,Greydwarf_Elite,Greydwarf_Shaman,Skeleton,Skeleton_Poison",
+            BlockedCreatureDropAtBronzeAge = config("CraetureDrop Server config", "BlockedCreatureDropUntilBronzeAge", "gd_king,Greydwarf,Greydwarf_Elite,Greydwarf_Shaman,Skeleton,Skeleton_Poison",
                 "Bronze");
 
-            BlockedCreatureDropAtIronAge = config("FactionDrop Server config", "BlockedCreatureDropUntilIronAge", "Bonemass,Blob,Ghost,Leech,Wraith,Draugr,Draugr_Ranged,Surtling,Troll",
+            BlockedCreatureDropAtIronAge = config("CraetureDrop Server config", "BlockedCreatureDropUntilIronAge", "Bonemass,Blob,Ghost,Leech,Wraith,Draugr,Draugr_Ranged,Surtling,Troll",
                 "Iron");
 
-            BlockedCreatureDropAtSilverAge = config("FactionDrop Server config", "BlockedCreatureDropUntilSilverAge", "Dragon,Draugr_Elite,BlobElite,Wolf,Fenring,Drake,Hatchling,StoneGolem",
+            BlockedCreatureDropAtSilverAge = config("CraetureDrop Server config", "BlockedCreatureDropUntilSilverAge", "Dragon,Draugr_Elite,BlobElite,Wolf,Fenring,Drake,Hatchling,StoneGolem",
                 "Silver");
 
-            BlockedCreatureDropAtBlackmetalAge = config("FactionDrop Server config", "BlockedCreatureDropUntilBlackmetalAge", "GoblinKing,Fuling,Goblin,GoblinArcher,Serpent,Deathsquito,Lox,GoblinBrute,GoblinShaman",
+            BlockedCreatureDropAtBlackmetalAge = config("CraetureDrop Server config", "BlockedCreatureDropUntilBlackmetalAge", "GoblinKing,Fuling,Goblin,GoblinArcher,Serpent,Deathsquito,Lox,GoblinBrute,GoblinShaman",
                 "BlackMetal");
 
-            BlockedCreatureDropAtMistAge = config("FactionDrop Server config", "BlockedCreatureDropUntilMistAge", "",
+            BlockedCreatureDropAtMistAge = config("CraetureDrop Server config", "BlockedCreatureDropUntilMistAge", "",
                 "Mist");
 
-            BlockedCreatureDropAtFireAge = config("FactionDrop Server config", "BlockedCreatureDropUntilFireAge", "",
+            BlockedCreatureDropAtFireAge = config("CraetureDrop Server config", "BlockedCreatureDropUntilFireAge", "",
                 "Fire");
 
-            BlockedCreatureDropAtIceAge = config("FactionDrop Server config", "BlockedCreatureDropUntilIceAge", "",
+            BlockedCreatureDropAtIceAge = config("CraetureDrop Server config", "BlockedCreatureDropUntilIceAge", "",
                 "Ice");
 
-            BlockedCreatureDropAtEndAge = config("FactionDrop Server config", "BlockedCreatureDropUntilEndAge", "",
+            BlockedCreatureDropAtEndAge = config("CraetureDrop Server config", "BlockedCreatureDropUntilEndAge", "",
+                "End");
+
+            BlockedRockAndTreeDropAtStoneAge = config("RockAndTreeDrop Server config", "BlockedRockAndTreeDropUntilStoneAge", "rock4_copper,rock4_copper,MineRock_Tin,MineRock_Copper",
+          "Stone");
+
+            BlockedRockAndTreeDropAtBronzeAge = config("RockAndTreeDrop Server config", "BlockedRockAndTreeDropUntilBronzeAge", "Birch_log_half,Oak_log_half,OakStub,SwampTree1_log,SwampTree1_Stub,MineRock_Iron,GuckSack,GuckSack_small,OakStub,Leviathan,mudpile_frac,mudpile2_frac",
+                "Bronze");
+
+            BlockedRockAndTreeDropAtIronAge = config("RockAndTreeDrop Server config", "BlockedRockAndTreeDropUntilIronAge", "rock3_silver,rock3_silver_frac,silvervein_frac,silvervein,,MineRock_Obsidian,MineRock_Meteorite",
+                "Iron");
+
+            BlockedRockAndTreeDropAtSilverAge = config("RockAndTreeDrop Server config", "BlockedRockAndTreeDropUntilSilverAge", "tarlump1_frac,Pickable_Barley,Pickable_Flax,Pickable_Flax_Wild",
+                "Silver");
+
+            BlockedRockAndTreeDropAtBlackmetalAge = config("RockAndTreeDrop Server config", "BlockedRockAndTreeDropUntilBlackmetalAge", "",
+                "BlackMetal");
+
+            BlockedRockAndTreeDropAtMistAge = config("RockAndTreeDrop Server config", "BlockedRockAndTreeDropUntilMistAge", "",
+                "Mist");
+
+            BlockedRockAndTreeDropAtFireAge = config("RockAndTreeDrop Server config", "BlockedRockAndTreeDropUntilFireAge", "",
+                "Fire");
+
+            BlockedRockAndTreeDropAtIceAge = config("RockAndTreeDrop Server config", "BlockedRockAndTreeDropUntilIceAge", "",
+                "Ice");
+
+            BlockedRockAndTreeDropAtEndAge = config("RockAndTreeDrop Server config", "BlockedRockAndTreeDropUntilEndAge", "",
                 "End");
 
             _harmony.PatchAll();
